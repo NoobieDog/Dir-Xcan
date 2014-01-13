@@ -22,7 +22,7 @@ This program is for finding hidden directories that are not directly links on a 
             Example : directorylist.txt
 
     [3:] Filename you want to export the HTTP Code 200 directory's too?
-            Example : 50
+            Example : httpok-vulnweb.html
 
     [OR] 
 	
