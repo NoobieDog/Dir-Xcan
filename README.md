@@ -1,8 +1,8 @@
 Dir-Xcan
 ========
-Dir-Xcan2 is a free and open source scanner. Based on the OWASP's DirBuster project that is now closed. It is _mostly_ experimental software. <br />
+Dir-Xcan3 is a free and open source scanner. Based on the OWASP's DirBuster project that is now closed. It is _mostly_ experimental software. <br />
 
-This program is for finding hidden directories that are not directly links on a website. It find HTTP response code 200 directory's and outputs the URL to file. <br />
+This program is for finding hidden directories that are not directly links on a website. It find HTTP response code 200 directories and outputs the URL to file. <br />
 
 --**** Use at your own risk. ****-- <br />
 
@@ -21,17 +21,20 @@ This program is for finding hidden directories that are not directly links on a 
     [2:] Enter the name of the Dir list file to be scanned
             Example : directorylist.txt
 
-    [3:] Filename you want to export the HTTP Code 200 directory's too?
+    [3:] Filename you want to export the HTTP Code 200 directories too?
             Example : httpok-vulnweb.html
+	
+	[4:] How many threads do you want to use? (Use less for slow connections)
+            Example : 3
 
     [OR] 
 	
-	root@bt:~# Dir-Xcan2.py -t testphp.vulnweb.com -f directorylist.txt -o Vulnweb.html
+	root@bt:~# Dir-Xcan3.py -t testphp.vulnweb.com -f directorylist.txt -o Vulnweb.html -n 3
 	
 				-t = Target domain name or ip
 				-f = Filename of the list you want to scan for
 				-o = Output Filename for logging of Code 200 Responses
-						
+				-n = Number of threads	
 						
 			Other Arguments:
 				
@@ -54,7 +57,7 @@ This program is for finding hidden directories that are not directly links on a 
 
     - This was written for educational purpose and pentest only. Use it at your own risk.
     - Author will be not responsible for any damage!
-    - Toolname        : Dir-Xcan2.py
+    - Toolname        : Dir-Xcan3.py
     - Coder           : NoobieDog
-    - Version         : 2.0
+    - Version         : 3.0
 
