@@ -10,7 +10,7 @@ This program is for finding hidden directories that are not directly links on a 
 
 ## Usage:
 
-    root@bt:~# Dir-Xcan2.py
+    root@bt:~# Dir-Xcan3.py
 
     Now you may follow the simple prompts.
 
@@ -42,9 +42,9 @@ This program is for finding hidden directories that are not directly links on a 
 				-h = Help menu
 						
         The program will print out the code 200 HTTP Responses to the output file.
-        It takes a while to scan because it only using a single thread at the moment.
-
-        It will feed you the percentage of the scan until completion.
+        
+        It will feed you the percentage of the scan until completion and the ammount of time it took
+        to complete the task.
 		
         Enjoy. :]
                                                                     ~/ NoobieDog
