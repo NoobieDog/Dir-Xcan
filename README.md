@@ -1,7 +1,7 @@
 Dir-Xcan5
 ========
 
-Release Date%s: 06/10/2014
+Release Date: 06/10/2014
 
 Dir-Xcan5 is a free and open source scanner. Based on the OWASP's DirBuster project that is now closed. It is _mostly_ experimental software. <br />
 
