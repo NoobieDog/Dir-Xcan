@@ -1,7 +1,7 @@
 Dir-Xcan5
 ========
 
-Release Date: 06/10/2014
+Release Date: 18/12/2014
 
 Dir-Xcan5 is a free and open source scanner. Based on the OWASP's DirBuster project that is now closed. It is _mostly_ experimental software. <br />
 
@@ -9,18 +9,19 @@ This program is for finding hidden directories that are not directly linked on a
 
 Changelog:
 
-	# [DONE] - Http Authentication
-	# [DONE] - Add COLOR.
-	# [DONE] - http Proxy options.
-	# [DONE] - Kill threads on Ctrl+C.
-	# [DONE] - Defaults added to Arguments.
-	# [DONE] - Now using Requests instead of Urllib2.
-	# [DONE] - Verbose modes added, prints found and Non-Authed folders.
-	# [DONE] - Added User-Agent option.
+    # [DONE] - Http Authentication
+    # [DONE] - Add COLOR.
+    # [DONE] - http Proxy options.
+    # [DONE] - Kill threads on Ctrl+C.
+    # [DONE] - Defaults added to Arguments.
+    # [DONE] - Now using Requests instead of Urllib2.
+    # [DONE] - Verbose modes added, prints found and Non-Authed folders.
+    # [DONE] - Added User-Agent option.
+    # [DONE] - Cookie Authentication (with multiple cookies)
+    # [DONE] - SOCKS Proxy options # To use TOR socks5://127.0.0.1:9050 or socks4://127.0.0.1:9050
 
 TODO:
 
-	# SOCKS Proxy options.
 	# Change number of threads on responce time from server.
 	# Fix error reporting for connection issues.
 	# Add Pause/Stop/Start functions to script.
@@ -34,7 +35,7 @@ TODO:
 
 ## Usage:
 
-    root@bt:~# Dir-Xcan4.py -s https://testphp.vulnweb.com -f directorylist.txt -o Dir-Xcan-results.html -n 30 -p 8.8.8.8:8080 -a username:admin
+    root@bt:~# Dir-Xcan6.py -s https://testphp.vulnweb.com -f directorylist.txt -o Dir-Xcan-results.html -n 30 -p socks5://127.0.0.1:9050 -a username:admin
                 -s http://192.168.0.1 -a admin:password -u Mozilla/4.0 -V
     
                 -s = Target domain name or ip
@@ -70,6 +71,6 @@ TODO:
 
     - This was written for educational purpose and pentests only. Use it at your own risk.
     - Author will be not responsible for any damage!
-    - Toolname        : Dir-Xcan5.py
+    - Toolname        : Dir-Xcan6.py
     - Coder           : stuart@sensepost.com // @NoobieDog
-    - Version         : 5.0
+    - Version         : 6.0
