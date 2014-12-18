@@ -1,9 +1,9 @@
-Dir-Xcan5
+Dir-Xcan6
 ========
 
 Release Date: 18/12/2014
 
-Dir-Xcan5 is a free and open source scanner. Based on the OWASP's DirBuster project that is now closed. It is _mostly_ experimental software. <br />
+Dir-Xcan6 is a free and open source scanner. Based on the OWASP's DirBuster project that is now closed. It is _mostly_ experimental software. <br />
 
 This program is for finding hidden directories that are not directly linked on a website. It find HTTP response code 200 directories and outputs the URL to file. <br />
 
